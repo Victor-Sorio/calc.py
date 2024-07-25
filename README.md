@@ -1,4 +1,4 @@
 Run script:
 ```bash
-python3 main.py
+python main.py
 ```
