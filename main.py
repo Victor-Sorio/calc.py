@@ -18,7 +18,7 @@ while cmd == "continue":
     print("Give me a number:")
     x = float(input())
     print("Give me an operation:\nOptions: 'plus', 'minus', 'multiply', 'divide', 'exponentiation', 'root'")
-    op = str(input())
+    op = str(input()).lower().strip()
     print("Give me a second number:")
     y = float(input())
 
